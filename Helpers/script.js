@@ -22,7 +22,8 @@ const KNOWN_DYNAMIC_FUNCTION_NAMES = [
     'faokrmio',
     'uerbupkh',
     'ygjiljer',
-    'dirwetvo'
+    'dirwetvo',
+    'sxxprljw'
 ];
 
 // The TextEncoder/Decoder API isn't supported so it has to be polyfilled.

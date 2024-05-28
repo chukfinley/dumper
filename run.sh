@@ -1,5 +1,4 @@
 #/usr/bin/bash
-pip3 install -r requirements.txt
 sleep 2
   if [ ! -f "frida-server" ]; then
     wget https://github.com/frida/frida/releases/download/16.1.11/frida-server-16.1.11-android-x86_64.xz

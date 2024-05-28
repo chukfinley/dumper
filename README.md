@@ -1,5 +1,6 @@
 # dumper
 Go to https://appetize.io/app/standalone
+you dont have to use appetize you just need a rooted android device connected to your pc
 
 make an account if you dont have one.
 

@@ -1,5 +1,6 @@
 # dumper
-Goto https://appetize.io/app/standalone
+Go to https://appetize.io/app/standalone
+
 make an account if you dont have one.
 Select Pixel 6 Pro and Android 12.0 like in the picture
 ![2024-05-28_21-51_1](https://github.com/chukfinley/dumper/assets/77645077/7505a1dd-c9b0-4ecf-971b-5e3affea081a)

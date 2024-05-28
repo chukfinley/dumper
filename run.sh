@@ -17,7 +17,7 @@ sleep 2
 adb shell chmod +x  /data/local/tmp/frida-server
 adb shell /data/local/tmp/frida-server &
 sleep 2
-adb start com.android.chrome
+adb shell am start -n com.android.chrome/com.google.android.apps.chrome.Main
 sleep 2
 adb shell am force-stop com.android.chrome
 sleep 1

@@ -1,5 +1,16 @@
 #/usr/bin/bash
-sleep 5
+pip3 install -r requirements.txt
+sleep 2
+  if [ ! -f "frida-server" ]; then
+    wget https://github.com/frida/frida/releases/download/16.1.11/frida-server-16.1.11-android-x86_64.xz
+    unxz frida-server-16.1.11-android-x86_64.xz
+    mv frida-server-16.1.11-android-x86_64 frida-server
+    echo "frida-server installed"
+  else
+    echo "frida-server already exists"
+  fi
+
+sleep 1
 adb root
 sleep  2
 adb push frida-server /data/local/tmp/

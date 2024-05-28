@@ -1,5 +1,5 @@
 #/usr/bin/bash
-sleep 2
+sleep 5
   if [ ! -f "frida-server" ]; then
     wget https://github.com/frida/frida/releases/download/16.1.11/frida-server-16.1.11-android-x86_64.xz
     unxz frida-server-16.1.11-android-x86_64.xz

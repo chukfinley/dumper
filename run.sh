@@ -17,4 +17,5 @@ sleep 2
 adb shell chmod +x  /data/local/tmp/frida-server
 adb shell /data/local/tmp/frida-server &
 sleep 2
+adb shell am start -a android.intent.action.VIEW -d https://bitmovin.com/demos/drm
 python3 dump_keys.py --cdm-version '16.1.0'
